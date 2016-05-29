@@ -38,17 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C40152A1CF2A7E400D9E5AF /* DropboxPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C40152A1CF2A7E400D9E5AF /* ProtoDropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoDropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C40152D1CF2A7E400D9E5AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C40152F1CF2A7E400D9E5AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C4015321CF2A7E400D9E5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C4015341CF2A7E400D9E5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C4015371CF2A7E400D9E5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C4015391CF2A7E400D9E5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C40153E1CF2A7E400D9E5AF /* DropboxPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C40153E1CF2A7E400D9E5AF /* ProtoDropbox.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoDropbox.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4015421CF2A7E400D9E5AF /* DropboxPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxPrototypeTests.swift; sourceTree = "<group>"; };
 		7C4015441CF2A7E400D9E5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C4015491CF2A7E400D9E5AF /* DropboxPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4015491CF2A7E400D9E5AF /* ProtoDropbox.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoDropbox.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C40154D1CF2A7E400D9E5AF /* DropboxPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxPrototypeUITests.swift; sourceTree = "<group>"; };
 		7C40154F1CF2A7E400D9E5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C40155D1CF2E7EC00D9E5AF /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
@@ -95,9 +95,9 @@
 		7C40152B1CF2A7E400D9E5AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C40152A1CF2A7E400D9E5AF /* DropboxPrototype.app */,
-				7C40153E1CF2A7E400D9E5AF /* DropboxPrototypeTests.xctest */,
-				7C4015491CF2A7E400D9E5AF /* DropboxPrototypeUITests.xctest */,
+				7C40152A1CF2A7E400D9E5AF /* ProtoDropbox.app */,
+				7C40153E1CF2A7E400D9E5AF /* ProtoDropbox.xctest */,
+				7C4015491CF2A7E400D9E5AF /* ProtoDropbox.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C4015291CF2A7E400D9E5AF /* DropboxPrototype */ = {
+		7C4015291CF2A7E400D9E5AF /* ProtoDropbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C4015521CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "DropboxPrototype" */;
+			buildConfigurationList = 7C4015521CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "ProtoDropbox" */;
 			buildPhases = (
 				7C4015261CF2A7E400D9E5AF /* Sources */,
 				7C4015271CF2A7E400D9E5AF /* Frameworks */,
@@ -152,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = DropboxPrototype;
+			name = ProtoDropbox;
 			productName = DropboxPrototype;
-			productReference = 7C40152A1CF2A7E400D9E5AF /* DropboxPrototype.app */;
+			productReference = 7C40152A1CF2A7E400D9E5AF /* ProtoDropbox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7C40153D1CF2A7E400D9E5AF /* DropboxPrototypeTests */ = {
+		7C40153D1CF2A7E400D9E5AF /* ProtoDropboxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C4015551CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "DropboxPrototypeTests" */;
+			buildConfigurationList = 7C4015551CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "ProtoDropboxTests" */;
 			buildPhases = (
 				7C40153A1CF2A7E400D9E5AF /* Sources */,
 				7C40153B1CF2A7E400D9E5AF /* Frameworks */,
@@ -170,14 +170,14 @@
 			dependencies = (
 				7C4015401CF2A7E400D9E5AF /* PBXTargetDependency */,
 			);
-			name = DropboxPrototypeTests;
+			name = ProtoDropboxTests;
 			productName = DropboxPrototypeTests;
-			productReference = 7C40153E1CF2A7E400D9E5AF /* DropboxPrototypeTests.xctest */;
+			productReference = 7C40153E1CF2A7E400D9E5AF /* ProtoDropbox.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7C4015481CF2A7E400D9E5AF /* DropboxPrototypeUITests */ = {
+		7C4015481CF2A7E400D9E5AF /* ProtoDropboxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C4015581CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "DropboxPrototypeUITests" */;
+			buildConfigurationList = 7C4015581CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "ProtoDropboxUITests" */;
 			buildPhases = (
 				7C4015451CF2A7E400D9E5AF /* Sources */,
 				7C4015461CF2A7E400D9E5AF /* Frameworks */,
@@ -188,9 +188,9 @@
 			dependencies = (
 				7C40154B1CF2A7E400D9E5AF /* PBXTargetDependency */,
 			);
-			name = DropboxPrototypeUITests;
+			name = ProtoDropboxUITests;
 			productName = DropboxPrototypeUITests;
-			productReference = 7C4015491CF2A7E400D9E5AF /* DropboxPrototypeUITests.xctest */;
+			productReference = 7C4015491CF2A7E400D9E5AF /* ProtoDropbox.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C4015251CF2A7E400D9E5AF /* Build configuration list for PBXProject "DropboxPrototype" */;
+			buildConfigurationList = 7C4015251CF2A7E400D9E5AF /* Build configuration list for PBXProject "ProtoDropbox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C4015291CF2A7E400D9E5AF /* DropboxPrototype */,
-				7C40153D1CF2A7E400D9E5AF /* DropboxPrototypeTests */,
-				7C4015481CF2A7E400D9E5AF /* DropboxPrototypeUITests */,
+				7C4015291CF2A7E400D9E5AF /* ProtoDropbox */,
+				7C40153D1CF2A7E400D9E5AF /* ProtoDropboxTests */,
+				7C4015481CF2A7E400D9E5AF /* ProtoDropboxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,12 +299,12 @@
 /* Begin PBXTargetDependency section */
 		7C4015401CF2A7E400D9E5AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7C4015291CF2A7E400D9E5AF /* DropboxPrototype */;
+			target = 7C4015291CF2A7E400D9E5AF /* ProtoDropbox */;
 			targetProxy = 7C40153F1CF2A7E400D9E5AF /* PBXContainerItemProxy */;
 		};
 		7C40154B1CF2A7E400D9E5AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7C4015291CF2A7E400D9E5AF /* DropboxPrototype */;
+			target = 7C4015291CF2A7E400D9E5AF /* ProtoDropbox */;
 			targetProxy = 7C40154A1CF2A7E400D9E5AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,8 +420,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DropboxPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.DropboxPrototype;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.ProtoDropbox;
+				PRODUCT_NAME = ProtoDropbox;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -434,8 +434,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DropboxPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.DropboxPrototype;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.ProtoDropbox;
+				PRODUCT_NAME = ProtoDropbox;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -447,8 +447,8 @@
 				INFOPLIST_FILE = DropboxPrototypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.DropboxPrototypeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropboxPrototype.app/DropboxPrototype";
+				PRODUCT_NAME = ProtoDropbox;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoDropbox.app/ProtoDropbox";
 			};
 			name = Debug;
 		};
@@ -459,8 +459,8 @@
 				INFOPLIST_FILE = DropboxPrototypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.DropboxPrototypeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropboxPrototype.app/DropboxPrototype";
+				PRODUCT_NAME = ProtoDropbox;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoDropbox.app/ProtoDropbox";
 			};
 			name = Release;
 		};
@@ -470,7 +470,7 @@
 				INFOPLIST_FILE = DropboxPrototypeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.DropboxPrototypeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProtoDropbox;
 				TEST_TARGET_NAME = DropboxPrototype;
 			};
 			name = Debug;
@@ -481,7 +481,7 @@
 				INFOPLIST_FILE = DropboxPrototypeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenlopark.DropboxPrototypeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProtoDropbox;
 				TEST_TARGET_NAME = DropboxPrototype;
 			};
 			name = Release;
@@ -489,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C4015251CF2A7E400D9E5AF /* Build configuration list for PBXProject "DropboxPrototype" */ = {
+		7C4015251CF2A7E400D9E5AF /* Build configuration list for PBXProject "ProtoDropbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C4015501CF2A7E400D9E5AF /* Debug */,
@@ -498,29 +498,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C4015521CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "DropboxPrototype" */ = {
+		7C4015521CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "ProtoDropbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C4015531CF2A7E400D9E5AF /* Debug */,
 				7C4015541CF2A7E400D9E5AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7C4015551CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "DropboxPrototypeTests" */ = {
+		7C4015551CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "ProtoDropboxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C4015561CF2A7E400D9E5AF /* Debug */,
 				7C4015571CF2A7E400D9E5AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7C4015581CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "DropboxPrototypeUITests" */ = {
+		7C4015581CF2A7E400D9E5AF /* Build configuration list for PBXNativeTarget "ProtoDropboxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C4015591CF2A7E400D9E5AF /* Debug */,
 				7C40155A1CF2A7E400D9E5AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

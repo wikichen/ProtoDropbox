@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7C4015291CF2A7E400D9E5AF"
-               BuildableName = "DropboxPrototype.app"
-               BlueprintName = "DropboxPrototype"
-               ReferencedContainer = "container:DropboxPrototype.xcodeproj">
+               BuildableName = "ProtoDropbox.app"
+               BlueprintName = "ProtoDropbox"
+               ReferencedContainer = "container:ProtoDropbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7C40153D1CF2A7E400D9E5AF"
-               BuildableName = "DropboxPrototypeTests.xctest"
-               BlueprintName = "DropboxPrototypeTests"
-               ReferencedContainer = "container:DropboxPrototype.xcodeproj">
+               BuildableName = "ProtoDropbox.xctest"
+               BlueprintName = "ProtoDropboxTests"
+               ReferencedContainer = "container:ProtoDropbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7C4015481CF2A7E400D9E5AF"
-               BuildableName = "DropboxPrototypeUITests.xctest"
-               BlueprintName = "DropboxPrototypeUITests"
-               ReferencedContainer = "container:DropboxPrototype.xcodeproj">
+               BuildableName = "ProtoDropbox.xctest"
+               BlueprintName = "ProtoDropboxUITests"
+               ReferencedContainer = "container:ProtoDropbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C4015291CF2A7E400D9E5AF"
-            BuildableName = "DropboxPrototype.app"
-            BlueprintName = "DropboxPrototype"
-            ReferencedContainer = "container:DropboxPrototype.xcodeproj">
+            BuildableName = "ProtoDropbox.app"
+            BlueprintName = "ProtoDropbox"
+            ReferencedContainer = "container:ProtoDropbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C4015291CF2A7E400D9E5AF"
-            BuildableName = "DropboxPrototype.app"
-            BlueprintName = "DropboxPrototype"
-            ReferencedContainer = "container:DropboxPrototype.xcodeproj">
+            BuildableName = "ProtoDropbox.app"
+            BlueprintName = "ProtoDropbox"
+            ReferencedContainer = "container:ProtoDropbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C4015291CF2A7E400D9E5AF"
-            BuildableName = "DropboxPrototype.app"
-            BlueprintName = "DropboxPrototype"
-            ReferencedContainer = "container:DropboxPrototype.xcodeproj">
+            BuildableName = "ProtoDropbox.app"
+            BlueprintName = "ProtoDropbox"
+            ReferencedContainer = "container:ProtoDropbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
